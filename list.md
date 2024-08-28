@@ -2,7 +2,11 @@
 
 ## About 
 
+The Signal-9 Capture The Flag (CTF) competition is designed to immerse participants in the world of cybersecurity by offering a diverse range of challenges. Each challenge is crafted to teach and reinforce critical cybersecurity concepts, from basic principles to advanced techniques. Through solving these challenges, participants gain hands-on experience in areas such as cryptography, steganography, reverse engineering, web vulnerabilities, and more. By engaging with real-world scenarios and solving complex problems, players develop practical skills that are essential for understanding and addressing contemporary security threats. Whether you're a novice eager to learn or an experienced professional looking to hone your skills, the Signal-9 CTF provides a comprehensive platform to advance your knowledge in cybersecurity.
+
+
 All challenges can be found at [Signal-9 Challenges](https://0x1.signal-9.club/challenges)
+
 
 
 ## Misc
