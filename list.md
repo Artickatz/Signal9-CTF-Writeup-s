@@ -379,5 +379,46 @@ This message was encoded with a 16,11 extended Hamming code, can you decode it?
 *Author: Jake Crowley*  
 The page hosted at [http://challenges.signal9.club:8802/](http://challenges.signal9.club:8802/) is protected by a TOTP token. Can you figure out how to login without knowing the secret?
 
+# ICS (Industrial Control Systems) Challenges
+
+## 1. **Firmware Upgrade**
+   - **Description**: Identify the author's email address by analyzing the firmware upgrade.
+   - **Teaches**: Understanding firmware updates and identifying metadata within firmware files.
+
+## 2. **Welcome to Firmware**
+   - **Description**: Reverse engineer the firmware to understand the file system and access encrypted flags.
+   - **Teaches**: Firmware analysis and static file system exploration.
+
+## 3. **Intro to Firmware 2**
+   - **Description**: Determine the backup files from the previous binary file and list them in alphabetical order.
+   - **Teaches**: Analyzing and organizing files within firmware.
+
+## 4. **cpio not C-3PO**
+   - **Description**: Locate the flag file within a new, securely updated firmware version.
+   - **Teaches**: Advanced firmware analysis and file extraction techniques.
+
+## 5. **Intro to Firmware 1**
+   - **Description**: Assess the size of the kernel in the firmware from a popular IP camera.
+   - **Teaches**: Understanding firmware structure and kernel analysis.
+
+## 6. **Intro to Firmware 3**
+   - **Description**: Identify the CPU manufacturer from the MIPS processor using the provided firmware binary.
+   - **Teaches**: Processor identification and analysis within firmware.
+
+## 7. **Intro to Firmware 4**
+   - **Description**: Find the developer’s name hidden within the file system of the firmware.
+   - **Teaches**: Extracting developer information from firmware files.
+
+## 8. **Intro to Firmware 5**
+   - **Description**: Determine the firmware version from the binary file.
+   - **Teaches**: Firmware versioning and version identification techniques.
+
+## 9. **Intro to Firmware 6**
+   - **Description**: Calculate the MD5 hash of the drivers included in the firmware.
+   - **Teaches**: Hashing techniques and driver analysis within firmware.
+
+## 10. **Upgraded Firmware**
+   - **Description**: Find the decryption key for a newly secured firmware version.
+   - **Teaches**: Cryptographic analysis and key extraction from firmware.
 
 
