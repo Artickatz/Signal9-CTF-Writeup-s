@@ -147,4 +147,237 @@ In an attempt to foil cryptanalysis, I have created the perfect algorithm. The a
 **500 Points**  
 *Author: Jake Crowley*  
 We've intercepted some communications between members of a hacking group from their IRC. Unfortunately, they seem to be using some encryption algorithm that was custom made by one of the members. Fortunately, we were able to get our hands on it. Analyze it and see if there is any way to recover the plaintext.  
-Encrypted message:  
+Encrypted message: "24174f2a71637976712c6c77702e2913216d3d53354f2f16731e0b41031f5f67573a6a32732e2876167e4925415d584120491e15002f5c57540d0d11531d5b6b07253d793520493e56035e7b47673f6f4133492a5550095871416c7f64233f3d05003d7820277b2f24152c497577297f7505293f14604f3c4742183e4166497912266c2e1437084f0037196b1131482d16250b1b032d2e1218074b511a056d1758670c103d470f301a066d553a254d1319056d37394a"
+
+## Forensics
+
+### QR You?
+**50 Points**  
+*Author: Samuel Hayden*  
+We found this strange image of a woman holding a sign, see if you can figure out what it means.
+
+### iSpy
+**75 Points**  
+*Author: Samuel Hayden*  
+Steganography is the act of hiding data within other seemingly benign information, such as pictures or audio. [Wikipedia](https://en.wikipedia.org/wiki/Steganography)  
+See if you can find the flag hidden in this huge image.
+
+### Exchangable Image Flag
+**100 Points**  
+*Author: Samuel Hayden*  
+There are many ways to include information within an image, see if you can find the flag associated with this one.
+
+### Flag Writer
+**100 Points**  
+*Author: Samuel Hayden*  
+In the end, everything in a computer is just bits written to a digital page. Try to find the flag that was written to this digital page.
+
+### For Public Release
+**100 Points**  
+*Author: Samuel Hayden*  
+Due to a FOIA request this document has been redacted and released. We believe that sensitive information may still be retrievable, retrieve it to solve this challenge.
+
+### Gently Down the Stream
+**100 Points**  
+*Author: Darius N.S.*  
+We were able to recover this file that we believe to contain a hidden message from our adversaries. However, our analysts can't seem to figure out how and where the hidden message is located within the file. We've been advised to come to you for help.  
+Note: You must extract the given file using 7-zip
+
+### The King's Orchestra
+**150 Points**  
+*Author: Samuel Hayden*  
+The king has demanded his orchestra to play and record this song, but our spies say there is more to this performance...
+
+### Punch
+**150 Points**  
+*Author: Samuel Hayden*  
+This flag was punched, can you read it?
+
+### There Is No Flag
+**200 Points**  
+*Author: Samuel Hayden*  
+Open your mind, sometimes information can exist where there appears to be none.
+
+## Reversing
+
+### Why Snakes?
+**50 Points**  
+*Author: Samuel Hayden*  
+Why did it have to be snakes? Use this script to find the flag.
+
+### Flags Before Swine
+**75 Points**  
+*Author: Samuel Hayden*  
+We can't make any sense of this flag retrieval script, can you figure it out?
+
+### Vastness of Whitespace
+**150 Points**  
+*Author: Samuel Hayden*  
+We know there is a flag here, but we don't see anything...
+
+### Meow
+**150 Points**  
+*Author: Samuel Hayden*  
+This application states that it will give us a flag, but it's taking too long. Can you skip the wait and view the flag?
+
+### JSFlag
+**200 Points**  
+*Author: Samuel Hayden*  
+Well this script sure is strange looking, can you figure it out?
+
+### Python of Pain
+**500 Points**  
+*Author: Samuel Hayden*  
+You were browsing a convicted cyber terrorist's hard drive when you found this strange python program. The terrorist in question was a master of obfuscation, but we really need to reverse engineer this to bypass the authentication and retrieve the original flag. Are you up to the task? WARNING: This program contains aggressive anti-reversing measures! Although it should not harm anything unrelated to the challenge, running any untrusted code should only be done inside of a virtual machine.
+
+### Keys To The Kingdom
+**500 Points**  
+*Author: Samuel Hayden*  
+Our new highly secure and advanced calculator program released today! Go download the trial version and consider purchasing a full license key if you enjoy our product! The program can be found at [http://challenges.signal9.club:1977/](http://challenges.signal9.club:1977/)
+
+### Mov It Mov It
+**1000 Points**  
+*Author: Samuel Hayden*  
+We like to mov it mov it... Connect to the service with the command: nc challenges.signal9.club 31075
+
+## Log Analysis
+
+### Apache 0x0
+**50 Points**  
+*Author: Samuel Hayden*  
+We've collected logs from our Apache Web Server, and we need your help to make sense of them. To begin, what is the date of the first log entry within the file? Please submit in the format `s9{YYYY-MM-DD}`.
+
+### Apache 0x1
+**50 Points**  
+*Author: Samuel Hayden*  
+What is the HTTP request method seen most in the log? Please submit in the format `s9{METHOD}`.
+
+### Apache 0x2
+**50 Points**  
+*Author: Samuel Hayden*  
+What three digit HTTP status code was returned to the client most within the log? Please submit in the form `s9{###}`.
+
+### auth.log 0x0
+**50 Points**  
+*Author: Samuel Hayden*  
+Our in house red team had a machine compromised via a brute force attack on the ssh service from within our local network. Using this `auth.log` file, find the IP address of the attacker. Please submit in the format `s9{IP-ADDRESS}`.
+
+### auth.log 0x1
+**50 Points**  
+*Author: Samuel Hayden*  
+Our in house red team had a machine compromised via a brute force attack on the ssh service from within our local network. Using this `auth.log` file, determine the number of seconds between the first "Failed password" and last "Failed password" entries in the log. Please submit in the format `s9{SECONDS}`.
+
+### Apache 0x3
+**75 Points**  
+*Author: Samuel Hayden*  
+How many times was the most returned HTTP status code found within the log? (See prior question) Please submit in the form `s9{##}`.
+
+### auth.log 0x2
+**75 Points**  
+*Author: Samuel Hayden*  
+Our in house red team had a machine compromised via a brute force attack on the ssh service from within our local network. Using this `auth.log` file, determine the number of usernames used by the attacker to attempt logins. Please submit in the format `s9{NUMBER_OF_USERNAMES}`.
+
+### auth.log 0x3
+**75 Points**  
+*Author: Samuel Hayden*  
+Our in house red team had a machine compromised via a brute force attack on the ssh service from within our local network. Using this `auth.log` file, determine the timestamp when the first valid credential was used to login to the machine. Please submit in the format `s9{HH:MM:SS}`.
+
+### Apache 0x4
+**100 Points**  
+*Author: Samuel Hayden*  
+What web resource was requested most in the log? (Ignore any parameters within the URL if applicable) Please submit in the form `s9{URI}`.
+
+### Apache 0x5
+**200 Points**  
+*Author: Samuel Hayden*  
+What is the total number of bytes returned to the client excluding response headers? Please submit in the form `s9{######}`.
+
+### auth.log 0x4
+**200 Points**  
+*Author: Samuel Hayden*  
+Our in house red team had a machine compromised via a brute force attack on the ssh service from within our local network. Using this `auth.log` file, determine the command the attacker used to escalate from the ███████ account to the root user account. Make sure you include the full command as the attacker would type it into a terminal. Please submit in the format `s9{PRIVILEGE_ESCALATION_COMMAND}`.
+
+### Internet Protocol Security
+**200 Points**  
+*Author: Jake Crowley*  
+We were able to compromise the network of known malicious actors through a man-in-the-middle attack, but we noticed that all the traffic seemed to be encrypted. However, we were able to access their logging server due to a configuration error and have obtained a log file that may be useful. Take a look and see if you can recover their conversation!
+
+## Exploitation
+
+### Let It Flow
+**100 Points**  
+*Author: Samuel Hayden*  
+Let it flow, let it flow, can't hold it back anymore! Connect to the service with the command: nc challenges.signal9.club 1996
+
+
+### Level Up
+**150 Points**  
+*Author: Darius N.S.*  
+A source sent us a transmission saying: "I was able to find the flag but I wasn't able to access it with the priveleges I had. The flag is in the / directory but it's h-". That's when the transmission was cut off. It is up to you to find the flag and access it using elevated privileges. Good luck.  
+Connect to the service with the command below and password `getth3fl@g`: ssh user@challenges.signal9.club -p 5975
+
+
+### Flag Format
+**150 Points**  
+*Author: Samuel Hayden*  
+What is your favorite flag format? Connect to the service with the command: nc challenges.signal9.club 1966
+
+
+### Whodo
+**200 Points**  
+*Author: Samuel Hayden*  
+Privilege escalate to get the flag! Connect to the service with the command below and password `P@ssw0rd`: ssh flagwanter@challenges.signal9.club -p 1980
+
+
+### CafeBabe
+**200 Points**  
+*Author: Samuel Hayden*  
+Welcome to CafeBabe, how can we serve you today? Connect to the service with the command: nc challenges.signal9.club 51966
+
+## Web
+
+### MrRoboto
+**100 Points**  
+*Author: Samuel Hayden*  
+We believe there is a flag hidden at [http://challenges.signal9.club:8801](http://challenges.signal9.club:8801) but our search engines won't pick it up. See if you can find it.
+
+### SQLwhy?
+**150 Points**  
+*Author: Samuel Hayden*  
+Our vulnerability scanner told us that the login page at [http://challenges.signal9.club:1998](http://challenges.signal9.club:1998) is vulnerable to SQL Injection. Try to exploit the login to get the flag.
+
+### Bellaso Bug
+**250 Points**  
+*Author: Samuel Hayden*  
+We love crypto so much that we made a website that allows you to encrypt and decrypt text! Think you have what it takes to exploit it and find the flag? Visit the website at [http://challenges.signal9.club:1553](http://challenges.signal9.club:1553) to find out!
+
+### Local Flag Inclusion
+**400 Points**  
+*Author: Samuel Hayden*  
+Our Junior PHP web developer has created this fun web application to showcase images of dolphins! Since the developer is inexperienced, we expect there may be security vulnerabilities. Can you exploit the web application at [http://challenges.signal9.club:2007](http://challenges.signal9.club:2007) to retrieve the flag?
+
+## Coding
+
+### Factors of a Flag
+**150 Points**  
+*Author: Samuel Hayden*  
+Flags consist of many factors, can you determine these? Connect to the service with the command:
+
+
+### Perceptual Flag
+**200 Points**  
+*Author: Samuel Hayden*  
+Two of these images are nearly identical. Determine which two and find the flag. Download the images [here](#).
+
+### Green Flags and Ham
+**200 Points**  
+*Author: Samuel Hayden*  
+This message was encoded with a 16,11 extended Hamming code, can you decode it?
+
+### Single Factor Authentication
+**300 Points**  
+*Author: Jake Crowley*  
+The page hosted at [http://challenges.signal9.club:8802/](http://challenges.signal9.club:8802/) is protected by a TOTP token. Can you figure out how to login without knowing the secret?
+
+
+
